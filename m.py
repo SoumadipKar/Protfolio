@@ -7,6 +7,8 @@ import matplotlib.patches as mpatches
 
 app = Flask(__name__)
 app.secret_key = "soumadip-portfolio-secret-key"
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
 
 # ── Modern Single-Page HTML & CSS & JS (subhasis.me Inspired) ────────────────
 HTML = """
